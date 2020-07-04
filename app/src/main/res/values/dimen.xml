@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+
+    <dimen name="margin_20">20dp</dimen>
+    <dimen name="margin_37">37dp</dimen>
+    <dimen name="margin_60">60dp</dimen>
+    <dimen name="margin_22">22dp</dimen>
+    <dimen name="margin_25">25dp</dimen>
+    <dimen name="margin_35">35dp</dimen>
+    <dimen name="margin_9">9dp</dimen>
+    <dimen name="margin_19">19dp</dimen>
+    <dimen name="margin_18">18dp</dimen>
+    <dimen name="margin_16">16dp</dimen>
+    <dimen name="margin_146">146dp</dimen>
+    <dimen name="margin_23">23dp</dimen>
+    <dimen name="margin_33">33dp</dimen>
+    <dimen name="margin_48">48dp</dimen>
+    <dimen name="margin_30">30dp</dimen>
+    <dimen name="margin_14">14dp</dimen>
+    <!--font size-->
+    <dimen name="size_17">17dp</dimen>
+    <dimen name="size_25">25dp</dimen>
+    <dimen name="size_60">60dp</dimen>
+    <dimen name="size_40">40dp</dimen>
+    <dimen name="size_80">80dp</dimen>
+    <dimen name="size_30">30dp</dimen>
+    <!--font size-->
+
+    <!--width-->
+    <dimen name="width_113">113dp</dimen>
+    <dimen name="width_50">50dp</dimen>
+    <dimen name="width_114">114dp</dimen>
+    <!--width-->
+</resources>

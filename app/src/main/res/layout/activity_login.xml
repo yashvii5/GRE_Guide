@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LoginActivity">
+
+<include layout="@layout/toolbar_login"/>
+
+    <ImageView
+        android:layout_width="@dimen/width_50"
+        android:layout_height="@dimen/width_50"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_icon_user"
+        android:layout_marginTop="@dimen/margin_30"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="15dp"
+        android:layout_marginTop="15dp"
+        android:orientation="vertical">
+        <EditText
+            android:id="@+id/etFName"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:background="@drawable/roundedittext"
+            android:layout_gravity="center"
+            android:hint="First Name"
+            android:textColorHint="@color/color_1E1E1E"
+            android:inputType="text" />
+        <EditText
+            android:id="@+id/etLName"
+            android:layout_width="match_parent"
+            android:layout_marginTop="8dp"
+            android:padding="10dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:background="@drawable/roundedittext"
+            android:textColorHint="@color/color_1E1E1E"
+            android:layout_gravity="center"
+            android:hint="Last Name"
+            android:inputType="text" />
+
+            <EditText
+                android:id="@+id/etDOB"
+                android:layout_width="match_parent"
+                android:layout_marginTop="8dp"
+                android:padding="10dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:background="@drawable/roundedittext"
+                android:textColorHint="@color/color_1E1E1E"
+                android:layout_gravity="center"
+                android:hint="Date Of Birth"
+                android:inputType="text" />
+
+        <EditText
+            android:id="@+id/etPhoneNo"
+            android:layout_width="match_parent"
+            android:layout_marginTop="8dp"
+            android:padding="10dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:background="@drawable/roundedittext"
+            android:textColorHint="@color/color_1E1E1E"
+            android:layout_gravity="center"
+            android:hint="Phone No"
+            android:maxLength="10"
+            android:inputType="phone" />
+        <EditText
+            android:id="@+id/etEmailId"
+            android:layout_width="match_parent"
+            android:layout_marginTop="8dp"
+            android:padding="10dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:background="@drawable/roundedittext"
+            android:layout_gravity="center"
+            android:hint="Email Id"
+            android:textColorHint="@color/color_1E1E1E"
+            android:inputType="textEmailAddress" />
+        <EditText
+            android:id="@+id/etPassword"
+            android:layout_width="match_parent"
+            android:layout_marginTop="8dp"
+            android:padding="10dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:background="@drawable/roundedittext"
+            android:textColorHint="@color/color_1E1E1E"
+            android:layout_gravity="center"
+            android:hint="Password"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/btnSubmit"
+            android:layout_width="fill_parent"
+            android:layout_gravity="center"
+            android:background="@drawable/pink"
+            android:layout_marginTop="30dp"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:onClick="addRecord"
+            android:textColor="#FFFFFF"/>
+    </LinearLayout>
+
+</LinearLayout>

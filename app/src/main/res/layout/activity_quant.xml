@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".QuantActivity">
+    <include layout="@layout/toolbar_quant"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="@dimen/margin_30">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Manhattan 5LB"
+                android:textColor="@color/color_1E1E1E"
+                android:textSize="@dimen/size_30"
+                android:layout_marginLeft="@dimen/margin_33"
+                android:fontFamily="@font/avenir_black">
+            </TextView>
+        </LinearLayout>
+        <ImageButton
+            android:layout_width="@dimen/size_40"
+            android:layout_height="@dimen/size_40"
+            android:src="@drawable/ic_arrow_left"
+            android:background="@color/color_ffffff"
+            android:layout_gravity="center"
+            android:onClick="q1"
+            android:layout_marginRight="@dimen/margin_30">
+        </ImageButton>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="@dimen/margin_30">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Nova Math Bible"
+                android:textColor="@color/color_1E1E1E"
+                android:textSize="@dimen/size_30"
+                android:layout_marginLeft="@dimen/margin_33"
+                android:fontFamily="@font/avenir_black">
+            </TextView>
+        </LinearLayout>
+        <ImageButton
+            android:layout_width="@dimen/size_40"
+            android:layout_height="@dimen/size_40"
+            android:src="@drawable/ic_arrow_left"
+            android:background="@color/color_ffffff"
+            android:layout_gravity="center"
+            android:onClick="q2"
+            android:layout_marginRight="@dimen/margin_30">
+        </ImageButton>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="@dimen/margin_30">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Kaplan GRE"
+                android:textColor="@color/color_1E1E1E"
+                android:textSize="@dimen/size_30"
+                android:layout_marginLeft="@dimen/margin_33"
+                android:fontFamily="@font/avenir_black">
+            </TextView>
+        </LinearLayout>
+        <ImageButton
+            android:layout_width="@dimen/size_40"
+            android:layout_height="@dimen/size_40"
+            android:src="@drawable/ic_arrow_left"
+            android:background="@color/color_ffffff"
+            android:layout_gravity="center"
+            android:onClick="q3"
+            android:layout_marginRight="@dimen/margin_30">
+        </ImageButton>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="@dimen/margin_30">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Princeton GRE"
+                android:textColor="@color/color_1E1E1E"
+                android:textSize="@dimen/size_30"
+                android:layout_marginLeft="@dimen/margin_33"
+                android:fontFamily="@font/avenir_black">
+            </TextView>
+        </LinearLayout>
+        <ImageButton
+            android:layout_width="@dimen/size_40"
+            android:layout_height="@dimen/size_40"
+            android:src="@drawable/ic_arrow_left"
+            android:background="@color/color_ffffff"
+            android:layout_gravity="center"
+            android:onClick="q4"
+            android:layout_marginRight="@dimen/margin_30">
+        </ImageButton>
+    </LinearLayout>
+
+</LinearLayout>
